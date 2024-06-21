@@ -34,8 +34,9 @@ while (temp < ulong.MaxValue)
 	    result == PrimalityTestResult.ProbablyPrime)
 	{
 		Console.WriteLine($"{temp}");
-		temp += 2;
 	}
+
+	temp += 2;
 }
 ```
 
