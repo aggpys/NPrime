@@ -7,7 +7,7 @@ Provides primality testing tools and the sieves of prime numbers (prime numbers 
 
 ```csharp
 var number = BigInteger.Parse("125952159129591959195111295111123");
-Console.WriteLine(PrimalityTest.MillerRabin.TestInteger(number));
+Console.WriteLine(PrimalityTest.TrialDivision.TestInteger(number));
 ```
 
 ```csharp
