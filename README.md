@@ -55,7 +55,7 @@ int[] pset = s.SelectAll((n) => n < 100, 10); // returns up to 10 primes less th
 ### Sieve of Eratosthenes
 
 ```csharp
-var s = new EraostheneSieve(10000);
+var s = new EratostheneSieve(10000);
 
 var ar = s.BeginSieve((result) => {
 	var count = s.EndSieve(ar);
